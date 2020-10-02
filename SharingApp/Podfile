@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SharingApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SharingApp
+pod 'SideMenu'
+pod 'ViewAnimator'
+pod 'SkyFloatingLabelTextField', '~> 3.0'
+pod 'SDWebImage'
+pod 'TPKeyboardAvoiding'
+pod 'UITextView+Placeholder'
+pod 'CCZoomTransition'
+pod 'ImagePicker'
+pod 'DKImagePickerController'
+pod 'PinterestSegment'
+pod 'TKSubmitTransition', :git => 'https://github.com/entotsu/TKSubmitTransition.git'
+pod 'ChameleonFramework/Swift', :git => 'https://github.com/wowansm/Chameleon.git', :branch => 'swift5'
+pod 'ReadMoreTextView'
+
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Analytics'
+pod 'Firebase/Crashlytics'
+pod 'Firebase/Storage'
+
+end
