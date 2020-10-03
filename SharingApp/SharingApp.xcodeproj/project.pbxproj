@@ -21,6 +21,7 @@
 		8234BF092524E4DF00EF3F8D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8234BF082524E4DF00EF3F8D /* CollectionViewCell.swift */; };
 		8234BF0D25271A7600EF3F8D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8234BF0C25271A7600EF3F8D /* GoogleService-Info.plist */; };
 		8234BF102528257F00EF3F8D /* SwapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8234BF0F2528257F00EF3F8D /* SwapViewController.swift */; };
+		8234BF122528682C00EF3F8D /* SwapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8234BF112528682C00EF3F8D /* SwapView.swift */; };
 		8234CD7D250867C1009FEFC1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8234CD7C250867C1009FEFC1 /* ListViewController.swift */; };
 		823A2BD225174CC200B4AB6F /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823A2BD125174CC200B4AB6F /* PinterestLayout.swift */; };
 		82820D1325047EE3008EA57C /* SelectRankPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82820D1225047EE3008EA57C /* SelectRankPopup.swift */; };
@@ -75,6 +76,7 @@
 		8234BF082524E4DF00EF3F8D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		8234BF0C25271A7600EF3F8D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8234BF0F2528257F00EF3F8D /* SwapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapViewController.swift; sourceTree = "<group>"; };
+		8234BF112528682C00EF3F8D /* SwapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapView.swift; sourceTree = "<group>"; };
 		8234CD7C250867C1009FEFC1 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		823A2BD125174CC200B4AB6F /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		82820D1225047EE3008EA57C /* SelectRankPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRankPopup.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				8234BF0F2528257F00EF3F8D /* SwapViewController.swift */,
+				8234BF112528682C00EF3F8D /* SwapView.swift */,
 			);
 			path = Swap;
 			sourceTree = "<group>";
@@ -519,6 +522,7 @@
 				82820D1C2504D8F8008EA57C /* SearchViewController.swift in Sources */,
 				82F21407250E139700016C91 /* SelectCategoryViewCell.swift in Sources */,
 				82F21409250E4F3900016C91 /* MycollectionViewTagHeaderView.swift in Sources */,
+				8234BF122528682C00EF3F8D /* SwapView.swift in Sources */,
 				829E7A1925072BDC000DBFED /* StorageManeger.swift in Sources */,
 				82820D1325047EE3008EA57C /* SelectRankPopup.swift in Sources */,
 				82820D1F2505F2E4008EA57C /* SearchViewCell.swift in Sources */,

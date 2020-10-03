@@ -43,21 +43,21 @@ class ProductDetailViewController: UIViewController {
         return label
     }()
     
-    private let blurView: UIVisualEffectView = {
-        let blur = UIBlurEffect(style: .dark)
-        let view = UIVisualEffectView(effect: blur)
-        view.alpha = 0.4
-        view.clipsToBounds = true
-        return view
-    }()
-    
-    private let rankImageView: UIImageView = {
-        let image = UIImageView()
-        image.image = UIImage(systemName: "rosette")
-        image.tintColor = .lightGray
-        image.contentMode = .scaleAspectFit
-        return image
-    }()
+//    private let blurView: UIVisualEffectView = {
+//        let blur = UIBlurEffect(style: .dark)
+//        let view = UIVisualEffectView(effect: blur)
+//        view.alpha = 0.4
+//        view.clipsToBounds = true
+//        return view
+//    }()
+//
+//    private let rankImageView: UIImageView = {
+//        let image = UIImageView()
+//        image.image = UIImage(systemName: "rosette")
+//        image.tintColor = .lightGray
+//        image.contentMode = .scaleAspectFit
+//        return image
+//    }()
     
     private let titleLabel: UILabel = {
         let label = UILabel()
@@ -68,42 +68,51 @@ class ProductDetailViewController: UIViewController {
         return label
     }()
     
-    private let websiteButton: UIButton = {
+    private let likeButton: UIButton = {
         let button = UIButton()
-        button.setTitleColor(.systemGray, for: .normal)
-        button.setTitle("TO WEBSITE", for: .normal)
-        button.layer.borderWidth = 1
-        button.layer.borderColor = UIColor.systemGray.cgColor
+        button.setImage(UIImage(systemName: "heart.fill"), for: .normal)
+        button.tintColor = .systemPink
         return button
     }()
     
-    private let captionLabel: UILabel = {
-        let label = UILabel()
-        label.text = "MESSAGEMESSAGEMESSAGEMESSAGEMESSAGEMESSAGE"
-        label.textColor = .white
-        label.font = UIFont.systemFont(ofSize: 14)
-        label.backgroundColor = .systemGray
-        label.numberOfLines = 0
-        return label
+//    private let websiteButton: UIButton = {
+//        let button = UIButton()
+//        button.setTitleColor(.systemGray, for: .normal)
+//        button.setTitle("TO WEBSITE", for: .normal)
+//        button.layer.borderWidth = 1
+//        button.layer.borderColor = UIColor.systemGray.cgColor
+//        return button
+//    }()
+//
+    private let captionLabel: UITextView = {
+        let textView = UITextView()
+        textView.text = "MESSAGEMESSAGEMESSAGEMESSAGEMESSAGEMESSAGE"
+        textView.textColor = .lightGray
+        textView.font = UIFont.systemFont(ofSize: 14)
+        textView.backgroundColor = .white
+        textView.layer.cornerRadius = 5
+        textView.layer.borderWidth = 1
+        textView.layer.borderColor = UIColor.lightGray.cgColor
+        return textView
     }()
-    
-    private let SDGsButton: UIButton = {
-        let button = UIButton()
-        button.setTitleColor(.systemGray, for: .normal)
-        button.setTitle("TO SDGs Item", for: .normal)
-        button.layer.borderWidth = 1
-        button.layer.borderColor = UIColor.systemGray.cgColor
-        return button
-    }()
-    
-    private let communityButton: UIButton = {
-        let button = UIButton()
-        button.setTitleColor(.systemGray, for: .normal)
-        button.setTitle("TO Com Item", for: .normal)
-        button.layer.borderWidth = 1
-        button.layer.borderColor = UIColor.systemGray.cgColor
-        return button
-    }()
+//
+//    private let SDGsButton: UIButton = {
+//        let button = UIButton()
+//        button.setTitleColor(.systemGray, for: .normal)
+//        button.setTitle("TO SDGs Item", for: .normal)
+//        button.layer.borderWidth = 1
+//        button.layer.borderColor = UIColor.systemGray.cgColor
+//        return button
+//    }()
+//
+//    private let communityButton: UIButton = {
+//        let button = UIButton()
+//        button.setTitleColor(.systemGray, for: .normal)
+//        button.setTitle("TO Com Item", for: .normal)
+//        button.layer.borderWidth = 1
+//        button.layer.borderColor = UIColor.systemGray.cgColor
+//        return button
+//    }()
     
     init(post: Post) {
         self.post = post
@@ -113,7 +122,14 @@ class ProductDetailViewController: UIViewController {
         itemImageView.sd_setImage(with: imageURL, completed: nil)
         
         titleLabel.text = post.title
-        captionLabel.text = post.caption
+//        captionLabel.text = post.caption
+    }
+    
+    init(index: Int) {
+        super.init(nibName: nil, bundle: nil)
+        itemImageView.image = UIImage(named: "1")
+        titleLabel.text = "title"
+        captionLabel.text = "caption"
     }
     
     required init?(coder: NSCoder) {
@@ -131,14 +147,15 @@ class ProductDetailViewController: UIViewController {
     private func addSubViews() {
         view.addSubview(itemImageView)
         itemImageView.addSubview(backTopreviousViewButton)
-        itemImageView.addSubview(blurView)
+//        itemImageView.addSubview(blurView)
         itemImageView.addSubview(SDGsLabel)
 //        view.addSubview(rankImageView)
         view.addSubview(titleLabel)
-        view.addSubview(websiteButton)
+        view.addSubview(likeButton)
+//        view.addSubview(websiteButton)
         view.addSubview(captionLabel)
-        view.addSubview(SDGsButton)
-        view.addSubview(communityButton)
+//        view.addSubview(SDGsButton)
+//        view.addSubview(communityButton)
         
         backTopreviousViewButton.addTarget(self, action: #selector(didTapBackTopreviousViewButton), for: .touchUpInside)
     }
@@ -147,13 +164,14 @@ class ProductDetailViewController: UIViewController {
         itemImageView.frame = CGRect(x: 0, y: 0, width: view.width, height: view.width)
         SDGsLabel.frame = CGRect(x: view.width - 60, y: 10, width: 50, height: 50)
         SDGsLabel.layer.cornerRadius = SDGsLabel.width / 2
-        blurView.frame = CGRect(x: view.width - 60, y: 10, width: 50, height: 50)
-        blurView.layer.cornerRadius = blurView.width / 2
+//        blurView.frame = CGRect(x: view.width - 60, y: 10, width: 50, height: 50)
+//        blurView.layer.cornerRadius = blurView.width / 2
         backTopreviousViewButton.frame = CGRect(x: 10, y: 10, width: 50, height: 50)
         titleLabel.frame = CGRect(x: 10,
                                   y: itemImageView.bottom + 10,
                                   width: view.width - 90,
                                   height: 52)
+        likeButton.frame = CGRect(x: view.width - 62, y: titleLabel.top, width: 52, height: 52)
         //        rankImageView.frame = CGRect(x: titleLabel.right + 20,
         //                                     y: itemImageView.bottom + 10,
         //                                     width: 52, height: 52)
@@ -161,25 +179,25 @@ class ProductDetailViewController: UIViewController {
         captionLabel.frame = CGRect(x: 10,
                                     y: titleLabel.bottom + 10,
                                     width: view.width - 20,
-                                    height: 80)
-        websiteButton.frame = CGRect(x: 10,
-                                     y: captionLabel.bottom + 10,
-                                     width: view.width - 20,
-                                     height: 52)
-        SDGsButton.frame = CGRect(x: 10,
-                                  y: websiteButton.bottom + 10,
-                                  width: (view.width / 2) - 15,
-                                  height: 52)
-        communityButton.frame = CGRect(x: SDGsButton.right + 10,
-                                       y: websiteButton.bottom + 10,
-                                       width: (view.width / 2) - 15,
-                                       height: 52)
+                                    height: view.height - (titleLabel.bottom + 10 + 62))
+//        websiteButton.frame = CGRect(x: 10,
+//                                     y: captionLabel.bottom + 10,
+//                                     width: view.width - 20,
+//                                     height: 52)
+//        SDGsButton.frame = CGRect(x: 10,
+//                                  y: websiteButton.bottom + 10,
+//                                  width: (view.width / 2) - 15,
+//                                  height: 52)
+//        communityButton.frame = CGRect(x: SDGsButton.right + 10,
+//                                       y: websiteButton.bottom + 10,
+//                                       width: (view.width / 2) - 15,
+//                                       height: 52)
     }
     
     @objc private func didTapBackTopreviousViewButton() {
         //        navigationController?.navigationBar.isHidden = false
         //        navigationController?.popViewController(animated: true)
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: false, completion: nil)
     }
     
     override var prefersStatusBarHidden: Bool {
