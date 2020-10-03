@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1001181250731-qnrlc0r1t0r7u813vmmalkj0mthvt56a.apps.googleusercontent.com</string>
+	<string>894453541121-e0jjep5vncc6un1lpfpc6j78r4k6efut.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1001181250731-qnrlc0r1t0r7u813vmmalkj0mthvt56a</string>
+	<string>com.googleusercontent.apps.894453541121-e0jjep5vncc6un1lpfpc6j78r4k6efut</string>
 	<key>API_KEY</key>
-	<string>AIzaSyB9TkVYcv7ueXzganyzFmQT7G6dX1RVb-c</string>
+	<string>AIzaSyBiHyl8G_HbaGSEx248N8KG2MwPzvHRIcY</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1001181250731</string>
+	<string>894453541121</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.google.eminokobayashi.SharingApp</string>
+	<string>com.google.eminokobayashi.SharingApp2</string>
 	<key>PROJECT_ID</key>
-	<string>sharingapp-8a9bd</string>
+	<string>sharingapp2-3dc2c</string>
 	<key>STORAGE_BUCKET</key>
-	<string>sharingapp-8a9bd.appspot.com</string>
+	<string>sharingapp2-3dc2c.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1001181250731:ios:007575807ce47ac40fe3ee</string>
+	<string>1:894453541121:ios:f66bc0d2258545384e9300</string>
 	<key>DATABASE_URL</key>
-	<string>https://sharingapp-8a9bd.firebaseio.com</string>
+	<string>https://sharingapp2-3dc2c.firebaseio.com</string>
 </dict>
 </plist>

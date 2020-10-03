@@ -19,6 +19,8 @@
 		8232EB212503157C007511FC /* MenuButtunCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8232EB202503157C007511FC /* MenuButtunCell.swift */; };
 		8234BF072524DC1E00EF3F8D /* SDGsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8234BF062524DC1E00EF3F8D /* SDGsViewController.swift */; };
 		8234BF092524E4DF00EF3F8D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8234BF082524E4DF00EF3F8D /* CollectionViewCell.swift */; };
+		8234BF0D25271A7600EF3F8D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8234BF0C25271A7600EF3F8D /* GoogleService-Info.plist */; };
+		8234BF102528257F00EF3F8D /* SwapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8234BF0F2528257F00EF3F8D /* SwapViewController.swift */; };
 		8234CD7D250867C1009FEFC1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8234CD7C250867C1009FEFC1 /* ListViewController.swift */; };
 		823A2BD225174CC200B4AB6F /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823A2BD125174CC200B4AB6F /* PinterestLayout.swift */; };
 		82820D1325047EE3008EA57C /* SelectRankPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82820D1225047EE3008EA57C /* SelectRankPopup.swift */; };
@@ -31,7 +33,6 @@
 		828D112C2508992D004DE118 /* NotificationFollowEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D112B2508992D004DE118 /* NotificationFollowEventTableViewCell.swift */; };
 		828D112E250C922B004DE118 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D112D250C922B004DE118 /* PostModel.swift */; };
 		828D1130250DC01E004DE118 /* SelectCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D112F250DC01E004DE118 /* SelectCategoryView.swift */; };
-		829E7A1325072648000DBFED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 829E7A1225072648000DBFED /* GoogleService-Info.plist */; };
 		829E7A1525072A7C000DBFED /* DatabaseManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E7A1425072A7C000DBFED /* DatabaseManeger.swift */; };
 		829E7A1725072B3A000DBFED /* AuthManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E7A1625072B3A000DBFED /* AuthManeger.swift */; };
 		829E7A1925072BDC000DBFED /* StorageManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829E7A1825072BDC000DBFED /* StorageManeger.swift */; };
@@ -72,6 +73,8 @@
 		8232EB202503157C007511FC /* MenuButtunCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtunCell.swift; sourceTree = "<group>"; };
 		8234BF062524DC1E00EF3F8D /* SDGsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDGsViewController.swift; sourceTree = "<group>"; };
 		8234BF082524E4DF00EF3F8D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8234BF0C25271A7600EF3F8D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8234BF0F2528257F00EF3F8D /* SwapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapViewController.swift; sourceTree = "<group>"; };
 		8234CD7C250867C1009FEFC1 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		823A2BD125174CC200B4AB6F /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		82820D1225047EE3008EA57C /* SelectRankPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRankPopup.swift; sourceTree = "<group>"; };
@@ -84,7 +87,6 @@
 		828D112B2508992D004DE118 /* NotificationFollowEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationFollowEventTableViewCell.swift; sourceTree = "<group>"; };
 		828D112D250C922B004DE118 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		828D112F250DC01E004DE118 /* SelectCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoryView.swift; sourceTree = "<group>"; };
-		829E7A1225072648000DBFED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		829E7A1425072A7C000DBFED /* DatabaseManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManeger.swift; sourceTree = "<group>"; };
 		829E7A1625072B3A000DBFED /* AuthManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManeger.swift; sourceTree = "<group>"; };
 		829E7A1825072BDC000DBFED /* StorageManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManeger.swift; sourceTree = "<group>"; };
@@ -163,7 +165,7 @@
 		821C8EC325010B97001CDDB9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				829E7A1225072648000DBFED /* GoogleService-Info.plist */,
+				8234BF0C25271A7600EF3F8D /* GoogleService-Info.plist */,
 				821C8EAB2500ED2D001CDDB9 /* SceneDelegate.swift */,
 				821C8EA92500ED2D001CDDB9 /* AppDelegate.swift */,
 				821C8EC1250109D3001CDDB9 /* Extensions.swift */,
@@ -211,6 +213,14 @@
 				8232EB202503157C007511FC /* MenuButtunCell.swift */,
 			);
 			path = MenuButton;
+			sourceTree = "<group>";
+		};
+		8234BF0E2528255200EF3F8D /* Swap */ = {
+			isa = PBXGroup;
+			children = (
+				8234BF0F2528257F00EF3F8D /* SwapViewController.swift */,
+			);
+			path = Swap;
 			sourceTree = "<group>";
 		};
 		82820D152504B482008EA57C /* Product */ = {
@@ -273,6 +283,7 @@
 			children = (
 				82BA516725034225000859D5 /* MyPageViewController.swift */,
 				82BA5169250344A0000859D5 /* MyPageCollectionViewCell.swift */,
+				8234BF0E2528255200EF3F8D /* Swap */,
 				829E7A2225085ED0000DBFED /* Follow */,
 				82C765CE2520751F00DE9BDE /* Suggest */,
 				82BA5172250347CA000859D5 /* Header */,
@@ -432,8 +443,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				821C8EB62500ED2E001CDDB9 /* LaunchScreen.storyboard in Resources */,
-				829E7A1325072648000DBFED /* GoogleService-Info.plist in Resources */,
 				821C8EB32500ED2E001CDDB9 /* Assets.xcassets in Resources */,
+				8234BF0D25271A7600EF3F8D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +526,7 @@
 				828D112C2508992D004DE118 /* NotificationFollowEventTableViewCell.swift in Sources */,
 				828D112A25089919004DE118 /* NotificationLikeEventTableViewCell.swift in Sources */,
 				829E7A1525072A7C000DBFED /* DatabaseManeger.swift in Sources */,
+				8234BF102528257F00EF3F8D /* SwapViewController.swift in Sources */,
 				829E7A1B2507427B000DBFED /* RegisterViewController.swift in Sources */,
 				82BA516D25034525000859D5 /* MypageCollectionReusableView.swift in Sources */,
 				829E7A2425085EF5000DBFED /* UserFollowTableViewCell.swift in Sources */,
@@ -672,7 +684,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.eminokobayashi.SharingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.eminokobayashi.SharingApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -691,7 +703,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.eminokobayashi.SharingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.eminokobayashi.SharingApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

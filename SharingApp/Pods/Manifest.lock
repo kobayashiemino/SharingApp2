@@ -3,7 +3,7 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
-  - CropViewController (2.5.4)
+  - CropViewController (2.5.5)
   - DKCamera (1.6.7)
   - DKImagePickerController (4.3.2):
     - DKImagePickerController/Camera (= 4.3.2)
@@ -141,6 +141,8 @@ PODS:
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.4.0)
   - ImagePicker (3.2.0)
+  - Koloda (5.0.1):
+    - pop (~> 1.0)
   - leveldb-library (1.22)
   - nanopb (1.30906.0):
     - nanopb/decode (= 1.30906.0)
@@ -148,11 +150,12 @@ PODS:
   - nanopb/decode (1.30906.0)
   - nanopb/encode (1.30906.0)
   - PinterestSegment (1.2.3)
+  - pop (1.0.12)
   - PromisesObjC (1.2.10)
   - ReadMoreTextView (3.0.1)
-  - SDWebImage (5.9.1):
-    - SDWebImage/Core (= 5.9.1)
-  - SDWebImage/Core (5.9.1)
+  - SDWebImage (5.9.2):
+    - SDWebImage/Core (= 5.9.2)
+  - SDWebImage/Core (5.9.2)
   - SideMenu (6.4.9)
   - SkyFloatingLabelTextField (3.8.0)
   - SwiftyGif (5.3.0)
@@ -172,6 +175,7 @@ DEPENDENCIES:
   - Firebase/Database
   - Firebase/Storage
   - ImagePicker
+  - Koloda
   - PinterestSegment
   - ReadMoreTextView
   - SDWebImage
@@ -203,9 +207,11 @@ SPEC REPOS:
     - GoogleUtilities
     - GTMSessionFetcher
     - ImagePicker
+    - Koloda
     - leveldb-library
     - nanopb
     - PinterestSegment
+    - pop
     - PromisesObjC
     - ReadMoreTextView
     - SDWebImage
@@ -234,7 +240,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   CCZoomTransition: 224c2dc8669302c416399771d4307c18bc4530ca
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  CropViewController: 980df34ffc499db89755b2f307f20eca00cd40c6
+  CropViewController: bd3ff11eeeaadc1e267bb9c3f3e9ee67a52d3285
   DKCamera: a902b66921fca14b7a75266feb8c7568aa7caa71
   DKImagePickerController: b5eb7f7a388e4643264105d648d01f727110fc3d
   DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
@@ -252,12 +258,14 @@ SPEC CHECKSUMS:
   GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
   GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
   ImagePicker: 1d950bbb2422548ed58791b4ec7f42fe42920511
+  Koloda: d07b9199a383abc5898b62aa945a599f5e7c0c4b
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
   PinterestSegment: 3dd673ffd9feb00dc7816bb1e503d70459e8eaa8
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
   ReadMoreTextView: 19147adf93abce6d7271e14031a00303fe28720d
-  SDWebImage: a990c053fff71e388a10f3357edb0be17929c9c5
+  SDWebImage: 0b42b8719ab0c5257177d5894306e8a336b21cbb
   SideMenu: 8ef57a3cfc024a2d3fc1c036c7fe98537baec9e0
   SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
   SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
@@ -266,6 +274,6 @@ SPEC CHECKSUMS:
   "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
   ViewAnimator: dd18d2f5c1e472f78d0065ff92750fe56cbd2f39
 
-PODFILE CHECKSUM: 8b142a2f506f7cad7c01b0b7bc781fa016c419c9
+PODFILE CHECKSUM: 270961eff7f0ffd233a115075d855bfe933aea9d
 
 COCOAPODS: 1.9.3

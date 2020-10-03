@@ -173,8 +173,8 @@ extension MyPageViewController: UICollectionViewDelegate, UICollectionViewDataSo
 }
 
 extension MyPageViewController: MyPageProfileReusableViewDelegate {
-    func didTapSuggestButton() {
-        let vc = SuggestViewController()
+    func didTapSwapButton() {
+        let vc = SwapViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
     

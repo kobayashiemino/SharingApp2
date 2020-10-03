@@ -18,14 +18,16 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>Please allows to access to Camera</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Please allows  to access  to Album</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Please allows to access to Microphone</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please allows  to access  to Album</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -53,8 +55,6 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

@@ -13,7 +13,7 @@ import ReadMoreTextView
 
 protocol MyPageProfileReusableViewDelegate: AnyObject {
     func didTapFollowButton()
-    func didTapSuggestButton()
+    func didTapSwapButton()
 }
 
 protocol MyPageProfileReusableViewColorDelegate: AnyObject {
@@ -98,7 +98,7 @@ class MyPageProfileReusableView: UICollectionReusableView {
     }
     
     @objc private func didTapSuggestButton() {
-        delegate?.didTapSuggestButton()
+        delegate?.didTapSwapButton()
     }
     
     private func fetchIconImage() {
